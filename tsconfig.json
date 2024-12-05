@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",                    /* Use ES Modules */
+    "target": "ES2020",                    /* Use modern JavaScript */
+    "strict": true,                        /* Enable strict type-checking */
+    "rootDir": "./src",                    /* Root directory for your TypeScript files */
+    "moduleResolution": "node",            /* Resolve modules like Node.js */
+    "esModuleInterop": true,               /* Allow default imports from non-ES Module packages */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true                   /* Skip library type checking for speed */
+  },
+  "include": ["src/**/*.ts"],               /* Include all `.ts` files in the `src` folder */
+  "exclude": ["node_modules"]               /* Exclude `node_modules` */
+}
